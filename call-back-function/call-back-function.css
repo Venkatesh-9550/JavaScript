@@ -1,0 +1,21 @@
+.body
+{
+    text-align: center;
+    border: 2px solid;
+    border-color: burlywood;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 1%;
+}
+.button
+{
+    background-color: rgba(125, 216, 169, 0.492);
+}
+.p
+{
+    color: lightcoral;
+}
+.image
+{
+    padding-top: 2%;
+}
