@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="Registration.css" />
+</head>
+
+<body class="body">
+    <h1 class="heading">Registration Form</h1>
+    <div class="registration-form">
+        <div class="left-container" style>
+            <div class="contact-heading">
+               
+                <h4 class="span">Register here,<span>to join our community!</span></h4>
+            </div>
+        </div>
+        <div class="right-container">
+            <form class="form" id="myform" name="myform">
+                <span>Enter Your FirstName:</span><input type="text" class=input id="fname" name="firstname" placeholder="Enter First Name" /><br><br>
+                <span>Enter Your LastName:</span><input type="text" class=input id="lname" name="lastname" placeholder="Enter Last Name" /><br><br>
+                <span>Enter Your Email:</span><input type="email" class=input id="email" name="email" placeholder="Enter your Email id" /><br><br>
+                <span>Enter Your password:</span><input type="password" class=input id="pass1" name="password1" placeholder="Enter your password" /><br><br>
+                <span>Re-Enter Your password:</span><input type="password" class=input id="pass2" name="password2" placeholder="Re-enter your password" /><br><br>
+                <div class="radio">
+                    <span>Gender: </span><br>
+                    <input type="radio" id="male" name="Gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="Gender" value="Female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="interest">
+                    <span>Area of Interests:</span><br>
+                    <input type="checkbox" id="js" name="Interests" value="Javascript" />
+                    <label for="js">Javascript</label>
+                    <input type="checkbox" id="react" name="Interests" value="React" />
+                    <label for="react">React</label>
+                    <input type="checkbox" id="angular" name="interests" value="Angular" />
+                    <label for="angular">Angular</label>
+                </div>
+                <div class="sub">
+                    <label for="sub">Choose an email subscription:</label>
+                    <select id="sub" name="subscription">
+                        <option value="All emails">All emails</option><br>
+                        <option value="Only important emails">Only important emails</option>
+                        <option value="No emails">No emails</option>
+                    </select>
+                </div><br>
+                <label for="msg">Enter your message:</label><br>
+                <textarea id="msg" name="message" rows="5" cols="30" placeholder="Type your message here"></textarea><br><br>
+                <div class="buttons">
+                    <input type="submit" class="button" id="submit" value="Register" />
+                    <input type="reset" class="button" id="reset" value="reset">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="Registration.js"></script>
+</html>
