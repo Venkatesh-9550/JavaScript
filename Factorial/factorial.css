@@ -1,0 +1,13 @@
+.body
+{
+    background-color: lightskyblue;
+    text-align: center;
+}
+.form
+{
+    border: 2px solid;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 3%;
+    background-color: cadetblue;
+}
